@@ -48,3 +48,4 @@ try:
     logger.info("Data sent to MySql Database")
 except Exception as e:
     logger .info(e)
+    logger.info("Exception occurred at Target.py")

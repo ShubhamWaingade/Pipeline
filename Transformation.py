@@ -34,5 +34,3 @@ def dataframe_transformations():
         logger.info("Error while loading data, please refer to Transformations.py")
 
 
-df = dataframe_transformations()
-df.show()

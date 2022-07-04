@@ -37,7 +37,3 @@ def read_data_from_jdbc(database, user, password, port, table, schema):
         print(e)
 
 
-# schema = "person_id int, id string, name string, character string, role string"
-
-# df2 = read_data_from_jdbc(database='db',user='root',password='12345',port='3306',table="NewTable3",schema=schema)
-
